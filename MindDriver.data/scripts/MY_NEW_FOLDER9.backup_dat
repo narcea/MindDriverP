@@ -1,0 +1,290 @@
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red100\green130\blue100;\red200\green20\blue140;\red25\green25\blue200;\red15\green100\blue15;\red200\green25\blue5;}
+\viewkind4\uc1\pard\cf1\lang1033\fs18 /*
+\par This program folder or PRG was created with the
+\par Mind Driver Media Manager on 23:37:50 12-02-2003
+\par 
+\par Press the F1 key for help, press F5 to refresh.
+\par */\cf0 
+\par \cf2 
+\par PROGRAM\cf0  (BIN) hey
+\par          \cf3  DESC,\cf0  Begining in super beta you slowly drop to the depths of delta
+\par          \cf4  SBAGEN\cf0 , d.wav, 2, 1+100/20 120+7.83/20 100-30/15 220+1/2 
+\par          \cf3  MUSI\cf0 C, d.wav, B 
+\par          \cf3  CHHZ\cf0 , 30, b
+\par          \cf3  FADE\cf0 , 30, 1, 10m, b\cf2 
+\par END\cf0  \cf2 
+\par PROGRAM\cf0  (ENR) Fuck off silly
+\par          \cf3  DESC,\cf0  Twenty minute mental wake up.
+\par           \cf5 REPEAT\cf0 , 10
+\par           \{
+\par                    \cf3  CHHZ\cf0 , 10, b
+\par                    \cf3  CONT\cf0 , 1M, b
+\par                    \cf3  CHHZ\cf0 , 17.5, b
+\par                    \cf3  CONT\cf0 , 1M, b
+\par           \},\cf2  END \cf5 REPEAT\cf2 
+\par END
+\par PROGRAM\cf0  (SLP) Why you here
+\par          \cf3  DESC,\cf0  A wonderful program for when you are having trouble falling asleep.
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  FADE\cf0 , 20, 1, 20, b
+\par          \cf3  LEDS\cf0 , s
+\par          \cf3  FADE\cf0 , 1, 15, 20, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  FADE\cf0 , 15, 1, 20, b
+\par          \cf3  LEDS\cf0 , s
+\par          \cf3  FADE\cf0 , 1, 10, 20, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  FADE\cf0 , 10, 1, 20, b
+\par          \cf3  LEDS\cf0 , s
+\par          \cf3  FADE\cf0 , 1, 7.83, 20, b
+\par          \cf3  LEDS\cf0 , a
+\par          \cf3  FADE\cf0 , 7.83, 6, 1M, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  CONT\cf0 , 2M, b
+\par          \cf3  LEDS\cf0 , s
+\par          \cf3  CHHZ\cf0 , 5.5, b
+\par          \cf3  CONT\cf0 , 2M, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  CHHZ\cf0 , 5, b
+\par          \cf3  CONT\cf0 , 5M, b
+\par          \cf3  CHHZ\cf0 , 4, b
+\par          \cf3  LEDS\cf0 , s
+\par          \cf3  CONT\cf0 , 5M, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  CHHZ\cf0 , 3, b
+\par          \cf3  CONT\cf0 , 5M, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  CHHZ\cf0 , 2, b
+\par          \cf3  CONT\cf0 , 5M, b
+\par          \cf3  LEDS\cf0 , s
+\par          \cf3  CONT\cf0 , 1M, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  FADE\cf0 , 2, 25, 2M, b\cf2 
+\par END\cf0 
+\par 
+\par PROGRAM\cf0  (BIN) Descent
+\par           \cf3 DESC, \cf0 Begining in super beta you slowly drop to the depths of delta
+\par           \cf4 SBAGEN,\cf0  d.wav, 2, 1+100/20 120+7.83/20 100-30/15 220+1/2 
+\par           \cf3 MUSIC\cf0 , d.wav, B 
+\par           \cf3 CHHZ,\cf0  30, b
+\par           \cf3 FADE,\cf0  30, 1, 10m, b
+\par \cf2 END \cf0 
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red100\green130\blue100;\red200\green20\blue140;\red25\green25\blue200;\red15\green100\blue15;\red200\green25\blue5;}
+\viewkind4\uc1\pard\cf1\lang1033\fs18 /*
+\par This program folder or PRG was created with the
+\par Mind Driver Media Manager on 23:37:50 12-02-2003
+\par 
+\par Press the F1 key for help, press F5 to refresh.
+\par */\cf0 
+\par \cf2 
+\par PROGRAM\cf0  (BIN) hey
+\par          \cf3  DESC,\cf0  Begining in super beta you slowly drop to the depths of delta
+\par          \cf4  SBAGEN\cf0 , d.wav, 2, 1+100/20 120+7.83/20 100-30/15 220+1/2 
+\par          \cf3  MUSI\cf0 C, d.wav, B 
+\par          \cf3  CHHZ\cf0 , 30, b
+\par          \cf3  FADE\cf0 , 30, 1, 10m, b\cf2 
+\par END\cf0  \cf2 
+\par PROGRAM\cf0  (ENR) Fuck off silly
+\par          \cf3  DESC,\cf0  Twenty minute mental wake up.
+\par           \cf5 REPEAT\cf0 , 10
+\par           \{
+\par                    \cf3  CHHZ\cf0 , 10, b
+\par                    \cf3  CONT\cf0 , 1M, b
+\par                    \cf3  CHHZ\cf0 , 17.5, b
+\par                    \cf3  CONT\cf0 , 1M, b
+\par           \},\cf2  END \cf5 REPEAT\cf2 
+\par END
+\par PROGRAM\cf0  (SLP) Why you here
+\par          \cf3  DESC,\cf0  A wonderful program for when you are having trouble falling asleep.
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  FADE\cf0 , 20, 1, 20, b
+\par          \cf3  LEDS\cf0 , s
+\par          \cf3  FADE\cf0 , 1, 15, 20, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  FADE\cf0 , 15, 1, 20, b
+\par          \cf3  LEDS\cf0 , s
+\par          \cf3  FADE\cf0 , 1, 10, 20, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  FADE\cf0 , 10, 1, 20, b
+\par          \cf3  LEDS\cf0 , s
+\par          \cf3  FADE\cf0 , 1, 7.83, 20, b
+\par          \cf3  LEDS\cf0 , a
+\par          \cf3  FADE\cf0 , 7.83, 6, 1M, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  CONT\cf0 , 2M, b
+\par          \cf3  LEDS\cf0 , s
+\par          \cf3  CHHZ\cf0 , 5.5, b
+\par          \cf3  CONT\cf0 , 2M, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  CHHZ\cf0 , 5, b
+\par          \cf3  CONT\cf0 , 5M, b
+\par          \cf3  CHHZ\cf0 , 4, b
+\par          \cf3  LEDS\cf0 , s
+\par          \cf3  CONT\cf0 , 5M, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  CHHZ\cf0 , 3, b
+\par          \cf3  CONT\cf0 , 5M, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  CHHZ\cf0 , 2, b
+\par          \cf3  CONT\cf0 , 5M, b
+\par          \cf3  LEDS\cf0 , s
+\par          \cf3  CONT\cf0 , 1M, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  FADE\cf0 , 2, 25, 2M, b\cf2 
+\par END\cf0 
+\par 
+\par PROGRAM\cf0  (BIN) Descent
+\par           \cf3 DESC, \cf0 Begining in super beta you slowly drop to the depths of delta
+\par           \cf4 SBAGEN,\cf0  d.wav, 2, 1+100/20 120+7.83/20 100-30/15 220+1/2 
+\par           \cf3 MUSIC\cf0 , d.wav, B 
+\par           \cf3 CHHZ,\cf0  30, b
+\par           \cf3 FADE,\cf0  30, 1, 10m, b
+\par \cf2 END \cf0 
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red100\green130\blue100;\red200\green20\blue140;\red25\green25\blue200;\red15\green100\blue15;\red200\green25\blue5;}
+\viewkind4\uc1\pard\cf1\lang1033\fs18 /*
+\par This program folder or PRG was created with the
+\par Mind Driver Media Manager on 23:37:50 12-02-2003
+\par 
+\par Press the F1 key for help, press F5 to refresh.
+\par */\cf0 
+\par \cf2 
+\par PROGRAM\cf0  (BIN) hey
+\par          \cf3  DESC,\cf0  Begining in super beta you slowly drop to the depths of delta
+\par          \cf4  SBAGEN\cf0 , d.wav, 2, 1+100/20 120+7.83/20 100-30/15 220+1/2 
+\par          \cf3  MUSI\cf0 C, d.wav, B 
+\par          \cf3  CHHZ\cf0 , 30, b
+\par          \cf3  FADE\cf0 , 30, 1, 10m, b\cf2 
+\par END\cf0  \cf2 
+\par PROGRAM\cf0  (ENR) Fuck off silly
+\par          \cf3  DESC,\cf0  Twenty minute mental wake up.
+\par           \cf5 REPEAT\cf0 , 10
+\par           \{
+\par                    \cf3  CHHZ\cf0 , 10, b
+\par                    \cf3  CONT\cf0 , 1M, b
+\par                    \cf3  CHHZ\cf0 , 17.5, b
+\par                    \cf3  CONT\cf0 , 1M, b
+\par           \},\cf2  END \cf5 REPEAT\cf2 
+\par END
+\par PROGRAM\cf0  (SLP) Why you here
+\par          \cf3  DESC,\cf0  A wonderful program for when you are having trouble falling asleep.
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  FADE\cf0 , 20, 1, 20, b
+\par          \cf3  LEDS\cf0 , s
+\par          \cf3  FADE\cf0 , 1, 15, 20, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  FADE\cf0 , 15, 1, 20, b
+\par          \cf3  LEDS\cf0 , s
+\par          \cf3  FADE\cf0 , 1, 10, 20, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  FADE\cf0 , 10, 1, 20, b
+\par          \cf3  LEDS\cf0 , s
+\par          \cf3  FADE\cf0 , 1, 7.83, 20, b
+\par          \cf3  LEDS\cf0 , a
+\par          \cf3  FADE\cf0 , 7.83, 6, 1M, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  CONT\cf0 , 2M, b
+\par          \cf3  LEDS\cf0 , s
+\par          \cf3  CHHZ\cf0 , 5.5, b
+\par          \cf3  CONT\cf0 , 2M, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  CHHZ\cf0 , 5, b
+\par          \cf3  CONT\cf0 , 5M, b
+\par          \cf3  CHHZ\cf0 , 4, b
+\par          \cf3  LEDS\cf0 , s
+\par          \cf3  CONT\cf0 , 5M, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  CHHZ\cf0 , 3, b
+\par          \cf3  CONT\cf0 , 5M, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  CHHZ\cf0 , 2, b
+\par          \cf3  CONT\cf0 , 5M, b
+\par          \cf3  LEDS\cf0 , s
+\par          \cf3  CONT\cf0 , 1M, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  FADE\cf0 , 2, 25, 2M, b\cf2 
+\par END\cf0 
+\par 
+\par PROGRAM\cf0  (BIN) Descent
+\par           \cf3 DESC, \cf0 Begining in super beta you slowly drop to the depths of delta
+\par           \cf4 SBAGEN,\cf0  d.wav, 2, 1+100/20 120+7.83/20 100-30/15 220+1/2 
+\par           \cf3 MUSIC\cf0 , d.wav, B 
+\par           \cf3 CHHZ,\cf0  30, b
+\par           \cf3 FADE,\cf0  30, 1, 10m, b
+\par \cf2 END \cf0 
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red100\green130\blue100;\red200\green20\blue140;\red25\green25\blue200;\red15\green100\blue15;\red200\green25\blue5;}
+\viewkind4\uc1\pard\cf1\lang1033\fs18 /*
+\par This program folder or PRG was created with the
+\par Mind Driver Media Manager on 23:37:50 12-02-2003
+\par 
+\par Press the F1 key for help, press F5 to refresh.
+\par */\cf0 
+\par \cf2 
+\par PROGRAM\cf0  (BIN) hey
+\par          \cf3  DESC,\cf0  Begining in super beta you slowly drop to the depths of delta
+\par          \cf4  SBAGEN\cf0 , d.wav, 2, 1+100/20 120+7.83/20 100-30/15 220+1/2 
+\par          \cf3  MUSI\cf0 C, d.wav, B 
+\par          \cf3  CHHZ\cf0 , 30, b
+\par          \cf3  FADE\cf0 , 30, 1, 10m, b\cf2 
+\par END\cf0  \cf2 
+\par PROGRAM\cf0  (ENR) Fuck off silly
+\par          \cf3  DESC,\cf0  Twenty minute mental wake up.
+\par           \cf5 REPEAT\cf0 , 10
+\par           \{
+\par                    \cf3  CHHZ\cf0 , 10, b
+\par                    \cf3  CONT\cf0 , 1M, b
+\par                    \cf3  CHHZ\cf0 , 17.5, b
+\par                    \cf3  CONT\cf0 , 1M, b
+\par           \},\cf2  END \cf5 REPEAT\cf2 
+\par END
+\par PROGRAM\cf0  (SLP) Why you here
+\par          \cf3  DESC,\cf0  A wonderful program for when you are having trouble falling asleep.
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  FADE\cf0 , 20, 1, 20, b
+\par          \cf3  LEDS\cf0 , s
+\par          \cf3  FADE\cf0 , 1, 15, 20, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  FADE\cf0 , 15, 1, 20, b
+\par          \cf3  LEDS\cf0 , s
+\par          \cf3  FADE\cf0 , 1, 10, 20, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  FADE\cf0 , 10, 1, 20, b
+\par          \cf3  LEDS\cf0 , s
+\par          \cf3  FADE\cf0 , 1, 7.83, 20, b
+\par          \cf3  LEDS\cf0 , a
+\par          \cf3  FADE\cf0 , 7.83, 6, 1M, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  CONT\cf0 , 2M, b
+\par          \cf3  LEDS\cf0 , s
+\par          \cf3  CHHZ\cf0 , 5.5, b
+\par          \cf3  CONT\cf0 , 2M, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  CHHZ\cf0 , 5, b
+\par          \cf3  CONT\cf0 , 5M, b
+\par          \cf3  CHHZ\cf0 , 4, b
+\par          \cf3  LEDS\cf0 , s
+\par          \cf3  CONT\cf0 , 5M, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  CHHZ\cf0 , 3, b
+\par          \cf3  CONT\cf0 , 5M, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  CHHZ\cf0 , 2, b
+\par          \cf3  CONT\cf0 , 5M, b
+\par          \cf3  LEDS\cf0 , s
+\par          \cf3  CONT\cf0 , 1M, b
+\par          \cf3  LEDS\cf0 , o
+\par          \cf3  FADE\cf0 , 2, 25, 2M, b\cf2 
+\par END\cf0 
+\par 
+\par PROGRAM\cf0  (BIN) Descent
+\par           \cf3 DESC, \cf0 Begining in super beta you slowly drop to the depths of delta
+\par           \cf4 SBAGEN,\cf0  d.wav, 2, 1+100/20 120+7.83/20 100-30/15 220+1/2 
+\par           \cf3 MUSIC\cf0 , d.wav, B 
+\par           \cf3 CHHZ,\cf0  30, b
+\par           \cf3 FADE,\cf0  30, 1, 10m, b
+\par \cf2 END \cf0 
+\par }
+ 

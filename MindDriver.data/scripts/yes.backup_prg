@@ -1,0 +1,11 @@
+/*
+Welcome to the editor. This program folder (.PRG) was automatically
+created using the Mind Driver Media Manager on 21:18:5609-18-2003
+
+Press the F1 key for help, press F5 to refresh.
+*/
+PROGRAM anewprogram
+          DESC, yo yo yo yo yo
+         MFADE, 1,30,30,1,1M
+          
+END  

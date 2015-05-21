@@ -1,0 +1,338 @@
+{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red100\green130\blue100;\red200\green20\blue140;\red25\green25\blue200;\red15\green100\blue15;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\lang1033\fs18 /* Addon Pack II */
+\par \cf2 
+\par PROGRAM\cf0  Imagistic Learning (DBB)
+\par     \cf3  DESC,\cf0  A session that assists in the learning of subjects that deal with mental imagery.
+\par     \cf4  SBAGEN\cf0 , dbb0.wav, 2,192+12/50 96+12/50
+\par     \cf4  SBAGEN\cf0 , dbb1.wav, 8,192+8/50 96+8/50
+\par     \cf4  SBAGEN\cf0 , dbb2.wav, 3,192+4/50 96+4/50
+\par     \cf4  SBAGEN\cf0 , dbb3.wav, 5,192+4/50 384+4/50
+\par     \cf4  SBAGEN\cf0 , dbb4.wav, 3,192+8/50 96+8/50
+\par     \cf4  SBAGEN\cf0 , dbb5.wav, 3,192+10/50 96+10/50
+\par     \cf4  SBAGEN\cf0 , dbb6.wav, 2,192+10/50 96+10/50
+\par     \cf4  SBAGEN\cf0 , dbb7.wav, 2,192+12/50 96+12/50
+\par     \cf4  SBAGEN\cf0 , dbb8.wav, 2,192+12/50 96+12/50
+\par     \cf3  MUSI\cf0 C, dbb0.wav, B
+\par     \cf3  FADE\cf0 , 12, 12, 2M, B
+\par     \cf3  CHHZ\cf0 , 12, B
+\par     \cf3  MUSI\cf0 C, dbb1.wav, B
+\par     \cf3  FADE\cf0 , 8, 8, 8M, B
+\par     \cf3  CHHZ\cf0 , 8, B
+\par     \cf3  MUSI\cf0 C, dbb2.wav, B
+\par     \cf3  FADE\cf0 , 4, 4, 3M, B
+\par     \cf3  CHHZ\cf0 , 4, B
+\par     \cf3  MUSI\cf0 C, dbb3.wav, B
+\par     \cf3  FADE\cf0 , 4, 4, 5M, B
+\par     \cf3  CHHZ\cf0 , 4, B
+\par     \cf3  MUSI\cf0 C, dbb4.wav, B
+\par     \cf3  FADE\cf0 , 8, 8, 3M, B
+\par     \cf3  CHHZ\cf0 , 8, B
+\par     \cf3  MUSI\cf0 C, dbb5.wav, B
+\par     \cf3  FADE\cf0 , 10, 10, 3M, B
+\par     \cf3  CHHZ\cf0 , 10, B
+\par     \cf3  MUSI\cf0 C, dbb6.wav, B
+\par     \cf3  FADE\cf0 , 10, 10, 2M, B
+\par     \cf3  CHHZ\cf0 , 10, B
+\par     \cf3  MUSI\cf0 C, dbb7.wav, B
+\par     \cf3  FADE\cf0 , 12, 12, 2M, B
+\par     \cf3  CHHZ\cf0 , 12, B
+\par     \cf3  MUSI\cf0 C, dbb8.wav, B
+\par     \cf3  FADE\cf0 , 12, 12, 2M, B
+\par     \cf3  CHHZ\cf0 , 12, B
+\par \cf2 
+\par END
+\par PROGRAM\cf0  Memorizer 1
+\par     \cf3  DESC,\cf0  A short session designed for use before memorization exercises for greater retention of information.
+\par     \cf4  SBAGEN\cf0 , dbb0.wav, 2,192+12/50 96+12/50
+\par     \cf4  SBAGEN\cf0 , dbb1.wav, 2,192+1/42.5 96+1/42.5
+\par     \cf4  SBAGEN\cf0 , dbb2.wav, 1,192+1/50 96+1/50
+\par     \cf4  SBAGEN\cf0 , dbb3.wav, 3,192+3/42.5 96+3/42.5
+\par     \cf4  SBAGEN\cf0 , dbb4.wav, 4,192+8/50 96+8/50
+\par     \cf4  SBAGEN\cf0 , dbb5.wav, 3,192+8/42.5 96+8/42.5
+\par     \cf4  SBAGEN\cf0 , dbb6.wav, 3,192+12/50 96+12/50
+\par     \cf3  MUSI\cf0 C, dbb0.wav, B
+\par     \cf3  FADE\cf0 , 12, 12, 2M, B
+\par     \cf3  CHHZ\cf0 , 12, B
+\par     \cf3  MUSI\cf0 C, dbb1.wav, B
+\par     \cf3  FADE\cf0 , 1, 1, 2M, B
+\par     \cf3  CHHZ\cf0 , 1, B
+\par     \cf3  MUSI\cf0 C, dbb2.wav, B
+\par     \cf3  FADE\cf0 , 1, 1, 1M, B
+\par     \cf3  CHHZ\cf0 , 1, B
+\par     \cf3  MUSI\cf0 C, dbb3.wav, B
+\par     \cf3  FADE\cf0 , 3, 3, 3M, B
+\par     \cf3  CHHZ\cf0 , 3, B
+\par     \cf3  MUSI\cf0 C, dbb4.wav, B
+\par     \cf3  FADE\cf0 , 8, 8, 4M, B
+\par     \cf3  CHHZ\cf0 , 8, B
+\par     \cf3  MUSI\cf0 C, dbb5.wav, B
+\par     \cf3  FADE\cf0 , 8, 8, 3M, B
+\par     \cf3  CHHZ\cf0 , 8, B
+\par     \cf3  MUSI\cf0 C, dbb6.wav, B
+\par     \cf3  FADE\cf0 , 12, 12, 3M, B
+\par     \cf3  CHHZ\cf0 , 12, B
+\par \cf2 
+\par END
+\par PROGRAM\cf0  Long Term Memory
+\par     \cf3  DESC,\cf0  Assists in long term retention of information
+\par     \cf4  SBAGEN\cf0 , dbb0.wav, 2,192+12/42.5 192+7/42.5
+\par     \cf4  SBAGEN\cf0 , dbb1.wav, 3,192+9/50 192+7/50
+\par     \cf4  SBAGEN\cf0 , dbb2.wav, 3,192+9/42.5 192+7/42.5
+\par     \cf4  SBAGEN\cf0 , dbb3.wav, 2,192+2.5/50 192+7/50
+\par     \cf4  SBAGEN\cf0 , dbb4.wav, 6,192+2.5/42.5 192+7/42.5
+\par     \cf4  SBAGEN\cf0 , dbb5.wav, 4,192+9/50 192+7/50
+\par     \cf4  SBAGEN\cf0 , dbb6.wav, 4,192+9/42.5 192+7/42.5
+\par     \cf4  SBAGEN\cf0 , dbb7.wav, 4,192+9/50 192+10/50
+\par     \cf4  SBAGEN\cf0 , dbb8.wav, 4,192+7/42.5 192+10/42.5
+\par     \cf4  SBAGEN\cf0 , dbb9.wav, 4,192+12/42.5 192+7.5/42.5
+\par     \cf4  SBAGEN\cf0 , dbb10.wav, 4,192+12/50 192+7/50
+\par     \cf3  MUSI\cf0 C, dbb0.wav, B
+\par     \cf3  FADE\cf0 , 12, 7, 2M, B
+\par     \cf3  CHHZ\cf0 , 7, B
+\par     \cf3  MUSI\cf0 C, dbb1.wav, B
+\par     \cf3  FADE\cf0 , 9, 7, 3M, B
+\par     \cf3  CHHZ\cf0 , 7, B
+\par     \cf3  MUSI\cf0 C, dbb2.wav, B
+\par     \cf3  FADE\cf0 , 9, 7, 3M, B
+\par     \cf3  CHHZ\cf0 , 7, B
+\par     \cf3  MUSI\cf0 C, dbb3.wav, B
+\par     \cf3  FADE\cf0 , 2.5, 7, 2M, B
+\par     \cf3  CHHZ\cf0 , 7, B
+\par     \cf3  MUSI\cf0 C, dbb4.wav, B
+\par     \cf3  FADE\cf0 , 2.5, 7, 6M, B
+\par     \cf3  CHHZ\cf0 , 7, B
+\par     \cf3  MUSI\cf0 C, dbb5.wav, B
+\par     \cf3  FADE\cf0 , 9, 7, 4M, B
+\par     \cf3  CHHZ\cf0 , 7, B
+\par     \cf3  MUSI\cf0 C, dbb6.wav, B
+\par     \cf3  FADE\cf0 , 9, 7, 4M, B
+\par     \cf3  CHHZ\cf0 , 7, B
+\par     \cf3  MUSI\cf0 C, dbb7.wav, B
+\par     \cf3  FADE\cf0 , 9, 10, 4M, B
+\par     \cf3  CHHZ\cf0 , 10, B
+\par     \cf3  MUSI\cf0 C, dbb8.wav, B
+\par     \cf3  FADE\cf0 , 7, 10, 4M, B
+\par     \cf3  CHHZ\cf0 , 10, B
+\par     \cf3  MUSI\cf0 C, dbb9.wav, B
+\par     \cf3  FADE\cf0 , 12, 7.5, 4M, B
+\par     \cf3  CHHZ\cf0 , 7.5, B
+\par     \cf3  MUSI\cf0 C, dbb10.wav, B
+\par     \cf3  FADE\cf0 , 12, 7, 4M, B
+\par     \cf3  CHHZ\cf0 , 7, B
+\par \cf2 
+\par END
+\par PROGRAM\cf0  Dual Binaural Crosstalk
+\par     \cf3  DESC,\cf0  Whole brain learning with dual binaural beats.
+\par     \cf4  SBAGEN\cf0 , dbb0.wav, 2,192+12/50 96+12/50
+\par     \cf4  SBAGEN\cf0 , dbb1.wav, 2,192+9/42.5 96+9/42.5
+\par     \cf4  SBAGEN\cf0 , dbb2.wav, 3,192+9/50 96+9/50
+\par     \cf4  SBAGEN\cf0 , dbb3.wav, 5,192+4.5/42.5 96+4.5/42.5
+\par     \cf4  SBAGEN\cf0 , dbb4.wav, 5,192+4.5/50 96+4.5/50
+\par     \cf4  SBAGEN\cf0 , dbb5.wav, 6,192+8/42.5 96+9/42.5
+\par     \cf4  SBAGEN\cf0 , dbb6.wav, 2,192+12/50 96+12/50
+\par     \cf3  MUSI\cf0 C, dbb0.wav, B
+\par     \cf3  FADE\cf0 , 12, 12, 2M, B
+\par     \cf3  CHHZ\cf0 , 12, B
+\par     \cf3  MUSI\cf0 C, dbb1.wav, B
+\par     \cf3  FADE\cf0 , 9, 9, 2M, B
+\par     \cf3  CHHZ\cf0 , 9, B
+\par     \cf3  MUSI\cf0 C, dbb2.wav, B
+\par     \cf3  FADE\cf0 , 9, 9, 3M, B
+\par     \cf3  CHHZ\cf0 , 9, B
+\par     \cf3  MUSI\cf0 C, dbb3.wav, B
+\par     \cf3  FADE\cf0 , 4.5, 4.5, 5M, B
+\par     \cf3  CHHZ\cf0 , 4.5, B
+\par     \cf3  MUSI\cf0 C, dbb4.wav, B
+\par     \cf3  FADE\cf0 , 4.5, 4.5, 5M, B
+\par     \cf3  CHHZ\cf0 , 4.5, B
+\par     \cf3  MUSI\cf0 C, dbb5.wav, B
+\par     \cf3  FADE\cf0 , 8, 9, 6M, B
+\par     \cf3  CHHZ\cf0 , 9, B
+\par     \cf3  MUSI\cf0 C, dbb6.wav, B
+\par     \cf3  FADE\cf0 , 12, 12, 2M, B
+\par     \cf3  CHHZ\cf0 , 12, B
+\par \cf2 
+\par END
+\par PROGRAM\cf0  Logical Learning
+\par     \cf3  DESC,\cf0  Use before studying logic based subjects.
+\par     \cf4  SBAGEN\cf0 , dbb0.wav, 2,192+11/50 192+8/50
+\par     \cf4  SBAGEN\cf0 , dbb1.wav, 3,192+10/42.5 192+7/42.5
+\par     \cf4  SBAGEN\cf0 , dbb2.wav, 3,192+9/50 192+8/50
+\par     \cf4  SBAGEN\cf0 , dbb3.wav, 4,192+7/42.5 384+7/42.5
+\par     \cf4  SBAGEN\cf0 , dbb4.wav, 3,192+9/50 192+8/50
+\par     \cf4  SBAGEN\cf0 , dbb5.wav, 3,192+10/42.5 192+7/42.5
+\par     \cf4  SBAGEN\cf0 , dbb6.wav, 2,192+11/50 192+8/50
+\par     \cf3  MUSI\cf0 C, dbb0.wav, B
+\par     \cf3  FADE\cf0 , 11, 8, 2M, B
+\par     \cf3  CHHZ\cf0 , 8, B
+\par     \cf3  MUSI\cf0 C, dbb1.wav, B
+\par     \cf3  FADE\cf0 , 10, 7, 3M, B
+\par     \cf3  CHHZ\cf0 , 7, B
+\par     \cf3  MUSI\cf0 C, dbb2.wav, B
+\par     \cf3  FADE\cf0 , 9, 8, 3M, B
+\par     \cf3  CHHZ\cf0 , 8, B
+\par     \cf3  MUSI\cf0 C, dbb3.wav, B
+\par     \cf3  FADE\cf0 , 7, 7, 4M, B
+\par     \cf3  CHHZ\cf0 , 7, B
+\par     \cf3  MUSI\cf0 C, dbb4.wav, B
+\par     \cf3  FADE\cf0 , 9, 8, 3M, B
+\par     \cf3  CHHZ\cf0 , 8, B
+\par     \cf3  MUSI\cf0 C, dbb5.wav, B
+\par     \cf3  FADE\cf0 , 10, 7, 3M, B
+\par     \cf3  CHHZ\cf0 , 7, B
+\par     \cf3  MUSI\cf0 C, dbb6.wav, B
+\par     \cf3  FADE\cf0 , 11, 8, 2M, B
+\par     \cf3  CHHZ\cf0 , 8, B
+\par \cf2 
+\par END
+\par PROGRAM\cf0  Logic Sweeper
+\par     \cf3  DESC,\cf0  An extra strength logic session using sweeps and dual binaural beats.
+\par     \cf4  SBAGEN\cf0 , dbb0.wav, 1,192+12/50 96+12/50
+\par     \cf4  SBAGEN\cf0 , dbb1.wav, 2,192+6.5/50 96+6.5/50
+\par     \cf4  SBAGEN\cf0 , dbb2.wav, 2,192+9/50 96+9/50
+\par     \cf4  SBAGEN\cf0 , dbb3.wav, 3,192+12/50 96+12/50
+\par     \cf4  SBAGEN\cf0 , dbb4.wav, 1,192+12/50 96+12/50
+\par     \cf3  MUSI\cf0 C, dbb0.wav, B
+\par     \cf3  FADE\cf0 , 12, 12, 1M, B
+\par     \cf3  CHHZ\cf0 , 12, B
+\par     \cf3  MUSI\cf0 C, dbb1.wav, B
+\par     \cf3  FADE\cf0 , 6.5, 6.5, 2M, B
+\par     \cf3  CHHZ\cf0 , 6.5, B
+\par     \cf3  MUSI\cf0 C, dbb2.wav, B
+\par     \cf3  FADE\cf0 , 9, 9, 2M, B
+\par     \cf3  CHHZ\cf0 , 9, B
+\par     \cf3  MUSI\cf0 C, dbb3.wav, B
+\par     \cf3  FADE\cf0 , 12, 12, 3M, B
+\par     \cf3  CHHZ\cf0 , 12, B
+\par     \cf3  MUSI\cf0 C, dbb4.wav, B
+\par     \cf3  FADE\cf0 , 12, 12, 1M, B
+\par     \cf3  CHHZ\cf0 , 12, B
+\par \cf2 
+\par END
+\par PROGRAM\cf0  Foreign Language Helper
+\par     \cf3  DESC,\cf0  Assistance in studying a hard to learn foreign language.
+\par     \cf4  SBAGEN\cf0 , dbb0.wav, 2,192+6/50 96+6/50
+\par     \cf4  SBAGEN\cf0 , dbb1.wav, 4,192+8/50 96+8/50
+\par     \cf4  SBAGEN\cf0 , dbb2.wav, 3,192+8/50 96+8/50
+\par     \cf4  SBAGEN\cf0 , dbb3.wav, 5,192+1.5/50 96+1.5/50
+\par     \cf4  SBAGEN\cf0 , dbb4.wav, 4,192+1.5/50 96+1.5/50
+\par     \cf4  SBAGEN\cf0 , dbb5.wav, 4,192+6/50 96+6/50
+\par     \cf4  SBAGEN\cf0 , dbb6.wav, 4,192+6/50 96+6/50
+\par     \cf4  SBAGEN\cf0 , dbb7.wav, 4,192+8/50 96+8/50
+\par     \cf4  SBAGEN\cf0 , dbb8.wav, 6,192+8/50 96+8/50
+\par     \cf4  SBAGEN\cf0 , dbb9.wav, 4,192+11/50 96+11/50
+\par     \cf3  MUSI\cf0 C, dbb0.wav, B
+\par     \cf3  FADE\cf0 , 6, 6, 2M, B
+\par     \cf3  CHHZ\cf0 , 6, B
+\par     \cf3  MUSI\cf0 C, dbb1.wav, B
+\par     \cf3  FADE\cf0 , 8, 8, 4M, B
+\par     \cf3  CHHZ\cf0 , 8, B
+\par     \cf3  MUSI\cf0 C, dbb2.wav, B
+\par     \cf3  FADE\cf0 , 8, 8, 3M, B
+\par     \cf3  CHHZ\cf0 , 8, B
+\par     \cf3  MUSI\cf0 C, dbb3.wav, B
+\par     \cf3  FADE\cf0 , 1.5, 1.5, 5M, B
+\par     \cf3  CHHZ\cf0 , 1.5, B
+\par     \cf3  MUSI\cf0 C, dbb4.wav, B
+\par     \cf3  FADE\cf0 , 1.5, 1.5, 4M, B
+\par     \cf3  CHHZ\cf0 , 1.5, B
+\par     \cf3  MUSI\cf0 C, dbb5.wav, B
+\par     \cf3  FADE\cf0 , 6, 6, 4M, B
+\par     \cf3  CHHZ\cf0 , 6, B
+\par     \cf3  MUSI\cf0 C, dbb6.wav, B
+\par     \cf3  FADE\cf0 , 6, 6, 4M, B
+\par     \cf3  CHHZ\cf0 , 6, B
+\par     \cf3  MUSI\cf0 C, dbb7.wav, B
+\par     \cf3  FADE\cf0 , 8, 8, 4M, B
+\par     \cf3  CHHZ\cf0 , 8, B
+\par     \cf3  MUSI\cf0 C, dbb8.wav, B
+\par     \cf3  FADE\cf0 , 8, 8, 6M, B
+\par     \cf3  CHHZ\cf0 , 8, B
+\par     \cf3  MUSI\cf0 C, dbb9.wav, B
+\par     \cf3  FADE\cf0 , 11, 11, 4M, B
+\par     \cf3  CHHZ\cf0 , 11, B
+\par \cf2 
+\par END
+\par PROGRAM\cf0  Attention and Focus 2
+\par     \cf3  DESC,\cf0  A dual binaural beat adaptation of the classic l/s session for enhancing focus and reducing distractions.
+\par     \cf4  SBAGEN\cf0 , dbb0.wav, \cf5 10\cf0 ,256+10/50 192+10/50
+\par     \cf4  SBAGEN\cf0 , dbb1.wav, 50,256+18/50 192+18/50
+\par     \cf4  SBAGEN\cf0 , dbb2.wav, 10,256+10/50 192+10/50
+\par     \cf4  SBAGEN\cf0 , dbb3.wav, 50,256+18/50 192+18/50
+\par     \cf4  SBAGEN\cf0 , \cf5 dbb4.wav,10\cf0 ,256+10/50 192+10/50
+\par     \cf4  SBAGEN\cf0 , dbb5.wav, 50,256+18/50 192+18/50
+\par     \cf4  SBAGEN\cf0 , dbb6.wav, 15,256+10/50 192+10/50
+\par     \cf4  SBAGEN\cf0 , dbb7.wav, 45,256+18/50 192+18/50
+\par     \cf3  MUSI\cf0 C, dbb0.wav, B
+\par     \cf3  FADE\cf0 , 10, 10, \cf5 10\cf0 , B
+\par     \cf3  CHHZ\cf0 , 10, B
+\par     \cf3  MUSI\cf0 C, dbb1.wav, B
+\par     \cf3  FADE\cf0 , 18, 18, \cf5 50\cf0 , B
+\par     \cf3  CHHZ\cf0 , 18, B
+\par     \cf3  MUSI\cf0 C, dbb2.wav, B
+\par     \cf3  FADE\cf0 , 10, 10, \cf5 10\cf0 , B
+\par     \cf3  CHHZ\cf0 , 10, B
+\par     \cf3  MUSI\cf0 C, dbb3.wav, B
+\par     \cf3  FADE\cf0 , 18, 18, \cf5 50\cf0 , B
+\par     \cf3  CHHZ\cf0 , 18, B
+\par     \cf3  MUSI\cf0 C, dbb4.wav, B
+\par     \cf3  FADE\cf0 , 10, 10, \cf5 10\cf0 , B
+\par     \cf3  CHHZ\cf0 , 10, B
+\par     \cf3  MUSI\cf0 C, dbb5.wav, B
+\par     \cf3  FADE\cf0 , 18, 18, \cf5 50\cf0 , B
+\par     \cf3  CHHZ\cf0 , 18, B
+\par     \cf3  MUSI\cf0 C, dbb6.wav, B
+\par     \cf3  FADE\cf0 , 10, 10, \cf5 15\cf0 , B
+\par     \cf3  CHHZ\cf0 , 10, B
+\par     \cf3  MUSI\cf0 C, dbb7.wav, B
+\par     \cf3  FADE\cf0 , 18, 18, \cf5 45\cf0 , B
+\par     \cf3  CHHZ\cf0 , 18, B
+\par \cf2 
+\par END
+\par PROGRAM\cf0  The Suggestive State 2
+\par     \cf3  DESC,\cf0  A dual binaural beat version of L19.
+\par     \cf4  SBAGEN\cf0 , bbS0.wav, 5,240+12/50 480+15/50
+\par     \cf4  SBAGEN\cf0 , bbS1.wav, 10,240+6/50 480+15/50
+\par     \cf4  SBAGEN\cf0 , bbS2.wav, 5,240+6/50 256+12/50
+\par     \cf4  SBAGEN\cf0 , dbb3.wav, 5,240+6/50 256+12/50
+\par     \cf4  SBAGEN\cf0 , bbS4.wav, 5,240+6/50 480+15/50
+\par     \cf4  SBAGEN\cf0 , bbS5.wav, 5,240+12/50 480+15/50
+\par     \cf4  SBAGEN\cf0 , bbS6.wav, 5,240+12/50 480+15/50
+\par     \cf3  MUSI\cf0 C, bbS0.wav, B
+\par     \cf3  FADE\cf0 , 12, 15, 5M, B
+\par     \cf3  CHHZ\cf0 , 15, B
+\par     \cf3  MUSI\cf0 C, bbS1.wav, B
+\par     \cf3  FADE\cf0 , 6, 15, 10M, B
+\par     \cf3  CHHZ\cf0 , 15, B
+\par     \cf3  MUSI\cf0 C, bbS2.wav, B
+\par     \cf3  FADE\cf0 , 6, 12, 5M, B
+\par     \cf3  CHHZ\cf0 , 12, B
+\par     \cf3  MUSI\cf0 C, dbb3.wav, B
+\par     \cf3  FADE\cf0 , 6, 12, 5M, B
+\par     \cf3  CHHZ\cf0 , 12, B
+\par     \cf3  MUSI\cf0 C, bbS4.wav, B
+\par     \cf3  FADE\cf0 , 6, 15, 5M, B
+\par     \cf3  CHHZ\cf0 , 15, B
+\par     \cf3  MUSI\cf0 C, bbS5.wav, B
+\par     \cf3  FADE\cf0 , 12, 15, 5M, B
+\par     \cf3  CHHZ\cf0 , 15, B
+\par     \cf3  MUSI\cf0 C, bbS6.wav, B
+\par     \cf3  FADE\cf0 , 12, 15, 5M, B
+\par     \cf3  CHHZ\cf0 , 15, B
+\par \cf2 
+\par END\cf0 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par }
+ 

@@ -1,0 +1,24 @@
+# AUTO GENERATED SBAGEN FILE FOR MD2
+# (ENR) MORNING CHILL
+# Quick energized wake up.
+
+
+ts0: 200+25/95 
+
+ts1: 200+8/95 
+
+ts2: 200+8/95 
+
+ts3: 200+15/95 
+
+ts4: 200+15/95 
+
+off: -
+
+
+NOW	== ts0 ->
+NOW+00:00:30	== ts1 ->
+NOW+00:01:00	== ts2 ->
+NOW+00:01:30	== ts3 ->
+NOW+00:02:00	== ts4 ->
+NOW+00:02:00	off

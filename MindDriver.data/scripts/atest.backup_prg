@@ -1,0 +1,31 @@
+This program folder or PRG was created with the
+Mind Driver Media Manager on 22:35:32 11-10-2003
+Press the F1 key for help, press F5 to refresh.
+
+
+
+
+PROGRAM (BIN) Learning Vibes
+          DESC, A good set to accelerate the mind
+          SBAGEN, lv.wav, 2, 1+100/20 160+7.83/20 130-10/15 220+20/2 
+          MUSIC, lv.wav, B 
+          CHHZ, 10, b
+          FADE, 10, 20, 3m, b
+          CONT, 6m, b
+END 
+
+PROGRAM (ENR) Morning Chill7
+          DESC, Quick energized wake up.
+          LEDS, a
+          FADE, 25, 7.83, 30, B
+          CONT, 30, B
+          LEDS, S
+          FADE, 7.83, 15, 30, B
+          CONT, 30, B
+END
+
+
+
+
+
+

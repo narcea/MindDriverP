@@ -1,0 +1,8 @@
+PROGRAM Example Script 1   , /* First declare the programs name */ 
+          DESC, A simple example script. , /* immediately give the description */ 
+          FADE, 30, 10, 1M, B         , /* Fade both LEDs from 30 to 10 Hz over one minute*/
+          LEDS, a                              , /* Alternate the flashes */
+          CONT, 30, B                      , /* Continue for 30 seconds */
+          LEDS, s                              , /* LEDs flash simultaneously */
+          CONT, 15, B
+END

@@ -1,0 +1,28 @@
+/*
+This program folder or PRG was created with the
+Mind Driver Media Manager on 21:55:53 09-22-2003
+
+Press the F1 key for help, press F5 to refresh.
+*/
+
+PROGRAM (BIN) Earth Vibrations
+          DESC, Feel the earth as you synchronize to its natural vibration with quick ramps to help you feel yourself recentering.
+          SBAGEN, ev.wav, 2, 1+100/20 180+7.83/20 200-3.915/15 300+15.66/2 
+          MUSIC, ev.wav, B 
+          CHHZ, 7.83, b
+          CONT, 1m, b
+          FADE, 7.83, 12, 15, B
+          CHHZ, 7.83,B
+          CONT, 45, B
+          FADE, 7.83, 3.50,15,B
+          CHHZ, 7.83,B
+          CONT, 75,B
+          MFADE, 7.83,9,7.83,6.66,5
+          MFADE,  9,7.83,6.66,7.83,5
+          CHHZ, 7.83,B
+          CONT, 1M,B
+          MFADE, 7.83,6.66,7.83,9,5
+          MFADE, 6.66,7.83,9,7.83,5
+          CHHZ, 7.83,B
+          CONT, 5M,B
+END 

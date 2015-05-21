@@ -1,0 +1,855 @@
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red100\green130\blue100;\red200\green20\blue140;\red25\green25\blue200;\red200\green25\blue5;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs18 /*
+\par Welcome to the editor. Below you will find the default 
+\par scripts for the Mind Driver. 
+\par 
+\par Press the F1 key for help, press F5 to refresh. 
+\par Press F3 to search.  
+\par */\cf0  
+\par 
+\par \cf2 PROGRAM\cf0  (REL) Fast Alpha Relaxer
+\par           \cf3 DESC\cf0 , Quick Relaxation
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 30, 11, 20, B
+\par           \cf3 CONT\cf0 , 40, B
+\par           \cf3 FADE\cf0 , 11, 6, 30, B
+\par           \cf3 FADE\cf0 , 6, 17.5, 30, B
+\par           \cf3 FADE\cf0 , 17.5, 11, 30, B
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 FADE\cf0 , 11, 13, 30, B
+\par           \cf3 FADE\cf0 , 13, 7.83, 30, B
+\par           \cf3 FADE\cf0 , 7.83, 11, 30, B
+\par           \cf3 CONT\cf0 , 210, B
+\par           \cf3 FADE\cf0 , 11, 15, 30, B
+\par           \cf3 CONT\cf0 , 40, B
+\par \cf2 END\cf0 
+\par 
+\par \cf2 PROGRAM\cf0  (REL) Slow Alpha Ramp
+\par           \cf3 DESC\cf0 , Slow relaxation
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 15, 14.17, 60, B
+\par           \cf3 FADE\cf0 , 14.17, 13.34, 60, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 13.34, 12.81, 60, B
+\par           \cf3 LEDS\cf0 , L
+\par           \cf3 FADE\cf0 , 12.81, 11.15, 120, B
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 11.15, 10, 60, B
+\par           \cf3 LEDS\cf0 , L
+\par           \cf3 CONT\cf0 , 15, B
+\par           \cf3 CHHZ\cf0 , 9.83, B
+\par           \cf3 CONT\cf0 , 45, B
+\par           \cf3 FADE\cf0 , 9.83, 8, 60, B
+\par           \cf3 LEDS\cf0 , 0
+\par           \cf3 CONT\cf0 , 30, B
+\par           \cf3 LEDS\cf0 , L
+\par           \cf3 CONT\cf0 , 30, B
+\par           \cf3 CONT\cf0 , 30, B
+\par           \cf3 CONT\cf0 , 30, B        
+\par           \cf3 FADE\cf0 , 8, 15, 30, B
+\par           \cf3 CONT\cf0 , 15, B
+\par \cf2 END\cf0 
+\par 
+\par \cf2 PROGRAM\cf0  (REL) Super 11
+\par           \cf3 DESC\cf0 , Deep relaxation
+\par           \cf3 FADE\cf0 , 18, 12, 30, B
+\par           \cf3 FADE\cf0 , 12, 11, 30, B
+\par           \cf3 CONT\cf0 , 180, B
+\par           \cf3 CHHZ\cf0 , 7.83, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 FADE\cf0 , 7.83, 11, 60, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 260, B
+\par           \cf3 FADE\cf0 , 11, 15, 30, B
+\par           \cf3 CONT\cf0 , 30, B
+\par \cf2 END\cf0 
+\par 
+\par \cf2 PROGRAM\cf0  (REL) Intense Alpha
+\par           \cf3 DESC\cf0 , Slow deep relaxation.
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 19, 15, 120, B
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 FADE\cf0 , 15, 11, 120, B
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 FADE\cf0 , 11, 7.83, 240, B
+\par           \cf3 CONT\cf0 , 420, B
+\par           \cf3 FADE\cf0 , 7.83, 11, 60, B
+\par           \cf3 CONT\cf0 , 40, B
+\par \cf2 END\cf0 
+\par 
+\par 
+\par \cf2 PROGRAM\cf0  (REL) Profound Resonance           
+\par           \cf3 DESC\cf0 , Relaxation and mood change.
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 25, 25, 30, B
+\par           \cf3 FADE\cf0 , 20, 20, 30, B
+\par           \cf3 FADE\cf0 , 15, 15, 30, B
+\par           \cf3 FADE\cf0 , 10, 10, 60, B
+\par           \cf3 FADE\cf0 , 7.83, 7.83, 1500, B
+\par           \cf3 FADE\cf0 , 10, 10, 60, B
+\par           \cf3 FADE\cf0 , 15, 15, 30, B
+\par           \cf3 FADE\cf0 , 20, 20, 30, B
+\par           \cf3 FADE\cf0 , 25, 25, 60, B
+\par \cf2 END\cf0 
+\par 
+\par \cf2 PROGRAM\cf0  (REL) Alpha High Stress
+\par           \cf3 DESC\cf0 , For high stress
+\par           \cf3 LEDS\cf0 , A\tab 
+\par           \cf3 FADE\cf0 , 25, 15, 300, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 15, 11, 120, B
+\par           \cf3 FADE\cf0 , 11, 7.83, 60, B
+\par           \cf3 CONT\cf0 , 300, B
+\par           \cf3 FADE\cf0 , 7.83, 5, 60, B
+\par           \cf3 CONT\cf0 , 540, B
+\par           \cf3 FADE\cf0 , 5, 15, 120, B
+\par           \cf3 CONT\cf0 , 40, B
+\par \cf2 END\cf0 
+\par 
+\par \cf2 PROGRAM\cf0  (REL) Alpha low stress
+\par           \cf3 DESC\cf0 , For low stress
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 15, 10, 300, B
+\par           \cf3 CONT\cf0 , 600, B
+\par           \cf3 FADE\cf0 , 10, 7, 300, B
+\par           \cf3 CONT\cf0 , 360, B
+\par           \cf3 FADE\cf0 , 7, 20, 240, B
+\par           \cf3 CONT\cf0 , 40, B
+\par \cf2 END\cf0 
+\par 
+\par \cf2 PROGRAM\cf0  (MED) Fast Fix
+\par           \cf3 DESC\cf0 , High Alpha
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 11, 11, 60, B
+\par           \cf3 FADE\cf0 , 18, 18, 20, B
+\par           \cf3 FADE\cf0 , 5, 5, 20, B
+\par           \cf3 FADE\cf0 , 11, 11, 110, B
+\par           \cf3 FADE\cf0 , 15, 15, 15, B
+\par           \cf3 FADE\cf0 , 9, 9, 15, B
+\par           \cf3 FADE\cf0 , 11, 11, 90, B
+\par           \cf3 FADE\cf0 , 7, 7, 180, B
+\par           \cf3 FADE\cf0 , 7, 15, 90, B
+\par           \cf3 CONT\cf0 , 40, B
+\par \cf2 END\cf0 
+\par 
+\par \cf2 PROGRAM\cf0  (ENR) Morning Chill
+\par           \cf3 DESC\cf0 , Quick energized wake up.
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 FADE\cf0 , 25, 7.83, 30, B
+\par           \cf3 CONT\cf0 , 30, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 7.83, 15, 30, B
+\par           \cf3 CONT\cf0 , 30, B
+\par \cf2 END\cf0 
+\par 
+\par \cf2 PROGRAM\cf0  (MED) Meditation Therapy
+\par           \cf3 DESC\cf0 , Deep theta meditation
+\par           \cf3 FADE\cf0 , 20, 1, 30, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 1, 15, 30, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 FADE\cf0 , 15, 1, 30, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 1, 10, 30, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 FADE\cf0 , 10, 1, 60, B
+\par           \cf3 LEDS\cf0 , 0
+\par           \cf3 FADE\cf0 , 1, 7.83, 80, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CHHZ\cf0 , 7, B
+\par           \cf3 CONT\cf0 , 270, B
+\par           \cf3 CHHZ\cf0 , 5, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 600, B
+\par           \cf3 CHHZ\cf0 , 3, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 540, B
+\par           \cf3 FADE\cf0 , 3, 20, 180, B
+\par           \cf3 CONT\cf0 , 30, B
+\par \cf2 END\cf0 
+\par 
+\par \cf2 PROGRAM\cf0  (MED) Fast Theta
+\par           \cf3 DESC\cf0 , Good for meditation and dreaming
+\par           \cf3 FADE\cf0 , 15, 7.83, 120, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 CONT\cf0 ,3, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 3, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 FADE\cf0 , 7.83, 5, 120, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 FADE\cf0 , 5, 6, 60, B
+\par           \cf3 CONT\cf0 , 30, B
+\par \cf2 END\cf0 
+\par 
+\par \cf2 PROGRAM\cf0  (LRN) Learning Acceleration
+\par           \cf3 DESC\cf0 , Accelerated absorption of information
+\par           \cf3 FADE\cf0 , 25, 5, 30, B
+\par           \cf3 FADE\cf0 , 5, 25, 30, B
+\par           \cf3 FADE\cf0 , 25, 5, 30, B
+\par           \cf3 FADE\cf0 , 5, 25, 30, B
+\par           \cf3 FADE\cf0 , 25, 10, 30, B
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 FADE\cf0 , 10, 6, 30, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 CONT\cf0 , 240, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CHHZ\cf0 , 10, B
+\par           \cf3 CONT\cf0 , 300, B
+\par           \cf3 FADE\cf0 , 10, 14, 60, B
+\par \cf2 END\cf0 
+\par 
+\par \cf2 PROGRAM\cf0  (ENR) High Awakening
+\par           \cf3 DESC\cf0 , Relaxation-Energy
+\par           \cf3 FADE\cf0 , 26, 6, 30, B
+\par           \cf3 FADE\cf0 , 6, 20, 30, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 FADE\cf0 , 20, 17.5, 60, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 17.5, 15, 60, B
+\par           \cf3 CHHZ\cf0 , 11, B
+\par           \cf3 CONT\cf0 , 30, B
+\par           \cf3 CHHZ\cf0 , 15, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 FADE\cf0 , 15, 11, 90, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 CHHZ\cf0 , 8.915, B
+\par           \cf3 CONT\cf0 , 30, B
+\par           \cf3 CHHZ\cf0 , 11, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 11, 10, 80, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 10, 8.915, 120, B
+\par           \cf3 CONT\cf0 , 180, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 CHHZ\cf0 , 11, B
+\par           \cf3 CONT\cf0 , 30, B
+\par           \cf3 CHHZ\cf0 , 7, B
+\par           \cf3 CONT\cf0 , 30, B
+\par           \cf3 CHHZ\cf0 , 8.915, B
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 FADE\cf0 , 8.915, 12.5, 120, B
+\par           \cf3 CONT\cf0 , 30, B
+\par \cf2 END\cf0 
+\par \cf2 PROGRAM\cf0  (LRN) Alpha-Theta Oscillation
+\par           \cf3 DESC\cf0 , Good for creativity and learning.
+\par           \cf4 REPEAT\cf0 , 3
+\par           \{
+\par                     \cf3 CHHZ\cf0 , 17.5,B
+\par                     \cf3 FADE\cf0 , 17.5, 5, 300, B
+\par                     \cf3 FADE\cf0 , 5, 17.5, 300, B\tab\tab 
+\par           \}, \cf2 END\cf0  \cf4 REPEAT\cf0 
+\par \cf2 END\cf0 
+\par \cf2 PROGRAM\cf0  (MED) Mental Rubdown
+\par           \cf3 DESC\cf0 , Mental message and tune-up.
+\par           \cf3 FADE\cf0 , 7.83, 10, 60, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 FADE\cf0 , 10, 15, 60, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 15, 20, 60, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 FADE\cf0 , 20, 25, 60, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 25, 30, 60, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 FADE\cf0 , 30, 35, 60, B
+\par           \cf3 FADE\cf0 , 35, 27.5, 120, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 27.5, 22.5, 120, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 22.5, 16, 180, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 16, 10, 180, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 10, 8.915, 300, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 FADE\cf0 , 8.915, 7.83, 300, B
+\par           \cf3 CONT\cf0 , 180, B
+\par           \cf3 FADE\cf0 , 7.83, 20, 120, B
+\par           \cf3 CONT\cf0 , 30, B
+\par \cf2 END\cf0 
+\par \cf2 PROGRAM\cf0  (LRN) Mental Awareness
+\par           \cf3 DESC\cf0 , Great attention enhancement tool.
+\par           \cf3 CHHZ\cf0 , 14, B
+\par           \cf3 CONT\cf0 , 30M, B
+\par \cf2 END\cf0 
+\par \cf2 PROGRAM\cf0  (ENR) Craig's Glory
+\par           \cf3 DESC\cf0 , Twenty minute mental wake up.
+\par           \cf4 REPEAT\cf0 , 10
+\par           \{
+\par                     \cf3 CHHZ\cf0 , 10, B
+\par                     \cf3 CONT\cf0 , 60, B
+\par                     \cf3 CHHZ\cf0 , 17.5, B
+\par                     \cf3 CONT\cf0 , 60, B
+\par           \}, \cf2 END\cf0  \cf4 REPEAT\cf0 
+\par \cf2 END\cf0 
+\par \cf2 PROGRAM\cf0  (SLP) Lucid Delight
+\par           \cf3 DESC\cf0 , Sets the stage for vivid lucid dreaming.
+\par           \cf3 FADE\cf0 , 20, 4, 8M, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 4, 2, 180, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 FADE\cf0 , 2, 4, 300, B
+\par           \cf3 FADE\cf0 , 4, 2, 240, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 2, 4, 10M, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 FADE\cf0 , 4, 2, 8M, B
+\par           \cf3 FADE\cf0 , 2, 20, 120, B
+\par \cf2 END\cf0 
+\par \cf2 PROGRAM\cf0  (ENR) The Equator
+\par           \cf3 DESC\cf0 , High energy for  high creativity.
+\par           \cf3 FADE\cf0 , 40, 01, 60, B
+\par           \cf3 FADE\cf0 , 1, 30, 60, B
+\par           \cf3 FADE\cf0 , 30, 3, 60, B
+\par           \cf3 FADE\cf0 , 3, 27.5, 60, B
+\par           \cf3 FADE\cf0 , 27.5, 5, 60, B
+\par           \cf3 FADE\cf0 , 05, 25, 60, B
+\par           \cf3 FADE\cf0 , 25, 7.83, 60, B
+\par           \cf3 FADE\cf0 , 7.83, 22.5, 60, B
+\par           \cf3 FADE\cf0 , 22.5, 11, 60, B
+\par           \cf3 FADE\cf0 , 11, 19, 60, B
+\par           \cf3 FADE\cf0 , 19, 14, 60, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 FADE\cf0 , 14, 17.5, 60, B
+\par           \cf3 FADE\cf0 , 17.5, 10, 60, B
+\par           \cf3 FADE\cf0 , 10, 21, 60, B
+\par           \cf3 FADE\cf0 , 21, 7, 60, B
+\par           \cf3 FADE\cf0 , 7, 24, 60, B
+\par           \cf3 FADE\cf0 , 24, 4, 60, B
+\par           \cf3 FADE\cf0 , 4, 26, 60, B
+\par           \cf3 FADE\cf0 , 26, 2, 60, B
+\par           \cf3 FADE\cf0 , 2, 29, 60, B
+\par           \cf3 FADE\cf0 , 29, 1.5, 60, B
+\par           \cf3 FADE\cf0 , 1.5, 40, 60, B
+\par           \cf3 CONT\cf0 , 30, B
+\par \cf2 END\cf0 
+\par \cf2 PROGRAM\cf0  (LRN) Basic Tune-Up
+\par           \cf3 DESC\cf0 , Exercise for concentration and creativity.
+\par           \cf3 FADE\cf0 , 15, 5, 30, B
+\par           \cf3 FADE\cf0 , 5, 15, 30, B
+\par           \cf3 FADE\cf0 , 15, 5, 30, B
+\par           \cf3 FADE\cf0 , 5, 15, 30, B
+\par           \cf3 FADE\cf0 , 15, 11, 30, B
+\par           \cf3 CONT\cf0 , 210, B
+\par           \cf3 CHHZ\cf0 , 12.5, B
+\par           \cf3 FADE\cf0 , 12.5, 5, 60, B
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 CHHZ\cf0 , 7.83, B
+\par           \cf3 CONT\cf0 , 270, B
+\par           \cf3 FADE\cf0 , 7.83, 5, 30, B
+\par           \cf3 CONT\cf0 , 240, B
+\par           \cf3 CHHZ\cf0 , 11, B
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 FADE\cf0 , 11, 12.5, 60, B
+\par \cf2 END\cf0 
+\par \cf2 PROGRAM\cf0  (REL) Deep Relaxed Creativity
+\par           \cf3 DESC\cf0 , Deep relaxation and creativity.
+\par           \cf3 FADE\cf0 , 17.5, 10, 120, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 8M, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CHHZ\cf0 , 7.83, B
+\par           \cf3 CONT\cf0 , 240, B
+\par           \cf3 CHHZ\cf0 , 6, B
+\par           \cf3 CONT\cf0 , 240, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 CONT\cf0 , 240, B
+\par           \cf3 CHHZ\cf0 , 5, B
+\par           \cf3 CONT\cf0 , 300, B
+\par           \cf3 CHHZ\cf0 , 1, B
+\par           \cf3 CONT\cf0 , 360, B
+\par           \cf3 FADE\cf0 , 1, 5, 120, B
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 CHHZ\cf0 , 4, B
+\par           \cf3 CONT\cf0 , 240, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 CHHZ\cf0 , 7.83, B
+\par           \cf3 CONT\cf0 , 10M, B
+\par           \cf3 CHHZ\cf0 , 10, B
+\par           \cf3 FADE\cf0 , 10, 17.5, 60, B
+\par           \cf3 FADE\cf0 , 17.5, 10, 60, B
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 FADE\cf0 , 10, 5, 60, B
+\par           \cf3 FADE\cf0 , 5, 12.5, 180, B
+\par \cf2 END\cf0 
+\par \cf2 PROGRAM\cf0  (MED) Journey into the mind
+\par           \cf3 DESC\cf0 , Energizing with good visual effects.
+\par           \cf3 FADE\cf0 , 30, 11, 30, B
+\par           \cf3 FADE\cf0 , 11, 25, 30, B
+\par           \cf3 FADE\cf0 , 25, 11, 30, B
+\par           \cf3 FADE\cf0 , 11, 19, 30, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 FADE\cf0 , 19, 10, 60, B
+\par           \cf3 CONT\cf0 , 180, B
+\par           \cf3 CHHZ\cf0 , 30, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 30, 10, 60, B
+\par           \cf3 CONT\cf0 , 180, B
+\par           \cf3 CHHZ\cf0 , 30, B
+\par           \cf3 FADE\cf0 , 30, 10, 60, B
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 FADE\cf0 , 10, 7.83, 120, B
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 FADE\cf0 , 7.83, 6, 60, B
+\par \cf2 END\cf0 
+\par \cf2 PROGRAM\cf0  (MED) Mental Gym
+\par           \cf3 DESC\cf0 , A great general mental workout.
+\par           \cf3 FADE\cf0 , 25, 7, 30, B
+\par           \cf3 FADE\cf0 , 7, 25, 30, B
+\par           \cf3 FADE\cf0 , 25, 7, 30, B
+\par           \cf3 FADE\cf0 , 7, 23.5, 30, B
+\par           \cf3 FADE\cf0 , 23.5, 7, 30, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 FADE\cf0 , 7, 20, 30, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 20, 7, 30, B
+\par           \cf3 FADE\cf0 , 7, 20, 60, B
+\par           \cf3 FADE\cf0 , 20, 7, 60, B
+\par           \cf3 FADE\cf0 , 7, 20, 60, B
+\par           \cf3 FADE\cf0 , 20, 18, 30, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 FADE\cf0 , 18, 11, 30, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 CHHZ\cf0 , 1, B
+\par           \cf3 FADE\cf0 , 1, 11, 30, B
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 FADE\cf0 , 11, 15, 30, B
+\par           \cf3 CONT\cf0 , 30, B
+\par \cf2 END\cf0 
+\par \cf2 PROGRAM\cf0  (MED) Mental Gym II
+\par           \cf3 DESC\cf0 , More intense general mental workout.
+\par           \cf3 FADE\cf0 , 30, 05, 20, B
+\par           \cf3 FADE\cf0 , 05, 25, 20, B
+\par           \cf3 FADE\cf0 , 25, 7, 20, B
+\par           \cf3 FADE\cf0 , 7, 22.5, 30, B
+\par           \cf3 FADE\cf0 , 22.5, 11, 30, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 CHHZ\cf0 , 7.83, B
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 CHHZ\cf0 , 6, B
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 CHHZ\cf0 , 11, B
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 CHHZ\cf0 , 25, B           
+\par           \cf3 FADE\cf0 , 25, 18, 60, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 CHHZ\cf0 , 11, B
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 CHHZ\cf0 , 18, B
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 CHHZ\cf0 , 11, B
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 CHHZ\cf0 , 6, B
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CHHZ\cf0 , 25, B
+\par           \cf3 FADE\cf0 , 25, 11, 120, B
+\par           \cf3 CHHZ\cf0 , 2, B
+\par           \cf3 FADE\cf0 , 2, 25, 60, B
+\par           \cf3 FADE\cf0 , 25, 11, 60, B
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 FADE\cf0 , 11, 15, 60, B
+\par \cf2 END\cf0 
+\par \cf2 PROGRAM\cf0  (LRN) Mind Swell
+\par           \cf3 DESC\cf0 , A great exercise for expanding the mind.
+\par           \cf3 FADE\cf0 , 10, 30, 120, B
+\par           \cf3 FADE\cf0 , 30, 12, 60, B
+\par           \cf3 FADE\cf0 , 12, 10, 60, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 FADE\cf0 , 10, 03, 60, B
+\par           \cf3 FADE\cf0 , 03, 30, 180, B
+\par           \cf3 FADE\cf0 , 30, 3, 120, B
+\par           \cf3 FADE\cf0 , 3, 7.83, 60, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 240, B
+\par           \cf3 FADE\cf0 , 7.83, 6, 60, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 CONT\cf0 , 240, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 6, 03, 120, B
+\par           \cf3 CONT\cf0 , 300, B
+\par           \cf3 FADE\cf0 , 03, 01, 60, B
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 FADE\cf0 , 01, 6, 300, B
+\par           \cf3 FADE\cf0 , 6, 1, 180, B
+\par           \cf3 CONT\cf0 , 240, B
+\par           \cf3 CHHZ\cf0 , 5, B
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 300, B
+\par           \cf3 FADE\cf0 , 6, 10, 120, B
+\par \cf2 END\cf0 
+\par \cf2 PROGRAM\cf0  (SLP) Dreams for the Sleepless
+\par           \cf3 DESC\cf0 , A wonderful program for when you are having trouble falling asleep.
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 20, 1, 20, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 1, 15, 20, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 15, 1, 20, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 1, 10, 20, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 10, 1, 20, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 1, 7.83, 20, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 FADE\cf0 , 7.83, 6, 60, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CHHZ\cf0 , 5.5, B
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CHHZ\cf0 , 5, B
+\par           \cf3 CONT\cf0 , 300, B
+\par           \cf3 CHHZ\cf0 , 4, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 300, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CHHZ\cf0 , 3, B
+\par           \cf3 CONT\cf0 , 300, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CHHZ\cf0 , 2, B
+\par           \cf3 CONT\cf0 , 300, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 2, 25, 120, B
+\par \cf2 END\cf0 
+\par \cf2 PROGRAM\cf0  (SLP) Sleep Temptation
+\par           \cf3 DESC\cf0 , This brings you close to sleep.
+\par           \cf3 FADE\cf0 , 15, 11, 120, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 FADE\cf0 , 11, 7, 120, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 FADE\cf0 , 7, 5, 180, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 5, 3, 120, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 3, 6, 120, B
+\par \cf2 END\cf0 
+\par \cf2 PROGRAM\cf0  (LRN) Relaxed Learning
+\par           \cf3 DESC\cf0 , Comfortable relaxed meditative learning.
+\par           \cf3 CHHZ\cf0 , 10, B
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 CHHZ\cf0 , 15, B
+\par           \cf3 FADE\cf0 , 15, 10, 60, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 10, 09, 60, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 FADE\cf0 , 9, 7.83, 120, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 180, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 180, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 FADE\cf0 , 7.83, 5, 120, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 180, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 CONT\cf0 , 180, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 180, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 5, 3, 120, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 CONT\cf0 , 180, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 180, B
+\par \cf2 END\cf0 
+\par \cf2 PROGRAM\cf0  (MED) Rumbling Theta
+\par           \cf3 DESC\cf0 , A trip through the low theta freq.
+\par           \cf3 FADE\cf0 , 17.5, 11, 60, B
+\par           \cf3 CHHZ\cf0 , 17.5, B
+\par           \cf3 FADE\cf0 , 17.5, 11, 120, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 11, 7.83, 30, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 CONT\cf0 , 90, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 180, B
+\par           \cf3 CHHZ\cf0 , 5, B
+\par           \cf3 LEDS\cf0 , A           
+\par           \cf3 FADE\cf0 , 5, 7.83, 60, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 7.83, 4, 120, B
+\par           \cf3 CONT\cf0 , 180, B
+\par           \cf3 CHHZ\cf0 , 7.83, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 7.83, 3, 60, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 3, 4, 60, B
+\par           \cf3 LEDS\cf0 , A
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 FADE\cf0 , 4, 7.83, 60, B
+\par \cf2 END\cf0 
+\par \cf2 PROGRAM\cf0  (REL) Unwind
+\par           \cf3 DESC\cf0 , Nice after a long day
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 12,12,120,B
+\par           \cf3 FADE\cf0 , 12,7,60,B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 60,B
+\par           \cf3 FADE\cf0 , 7,3,60,B
+\par           \cf3 CONT\cf0 , 240,B
+\par           \cf3 FADE\cf0 , 3,4,60,B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 540, B
+\par           \cf3 FADE\cf0 , 4,7.83,60,B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 240,B
+\par           \cf3 FADE\cf0 , 7.83,12,60,B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 300,B
+\par \cf2 END\cf0  
+\par 
+\par \cf2 PROGRAM\cf0  (ENR) Wake up and learn
+\par           \cf3 DESC\cf0 , Energizes and helps with learning
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 12,12,60,B
+\par           \cf3 FADE\cf0 , 12,7.83,60,B
+\par           \cf3 CONT\cf0 , 120,B
+\par           \cf3 FADE\cf0 , 7.83,1,60,B
+\par           \cf3 FADE\cf0 , 1,5,60,B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 180,B
+\par           \cf3 FADE\cf0 , 5,7,60,B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 540,B
+\par           \cf3 FADE\cf0 , 7,10,60,B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 240,B
+\par           \cf3 FADE\cf0 , 10,12,60,B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 300,B
+\par \cf2 END\cf0  
+\par \cf2 PROGRAM\cf0  (MED) Meditating Mind
+\par           \cf3 DESC\cf0 , Good for centering
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 24,24,30,B
+\par           \cf3 FADE\cf0 , 24,11,90,B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 60,B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 11,9,120,B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 60,B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 9,7,120,B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 60,B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 7,5,120,B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 180,B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 5,3,120,B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 180,B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 3,1,120,B
+\par           \cf3 CONT\cf0 , 180,B
+\par           \cf3 FADE\cf0 , 1,15,300,B
+\par           \cf3 CONT\cf0 , 120,B
+\par \cf2 END\cf0  
+\par 
+\par \cf2 PROGRAM\cf0  (SLP) Happy Dream
+\par           \cf3 DESC\cf0 , Good Dreams
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 26, 26, 30, B
+\par           \cf3 FADE\cf0 , 26, 12, 90, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 12, 10, 120, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 10, 6, 240, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 240, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 6, 4, 120, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 180, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 4, 2, 120, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 180, B
+\par           \cf3 FADE\cf0 , 2, 1, 60, B
+\par           \cf3 CONT\cf0 , 300, B
+\par \cf2 END\cf0 
+\par 
+\par \cf2 PROGRAM\cf0  (REL) Relaxed and Thinking
+\par           \cf3 DESC\cf0 , The name says it all
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 12, 12, 120, B
+\par           \cf3 FADE\cf0 , 12, 8, 60, B
+\par           \cf3 CONT\cf0 , 180, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 8, 5, 60, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 FADE\cf0 , 5, 3, 60, B
+\par           \cf3 CONT\cf0 , 240, B
+\par           \cf3 FADE\cf0 , 3, 1, 60, B
+\par           \cf3 CONT\cf0 , 240, B
+\par           \cf3 FADE\cf0 , 1, 3, 60, B
+\par           \cf3 CONT\cf0 , 240, B
+\par           \cf3 FADE\cf0 , 3, 5, 60, B
+\par           \cf3 CONT\cf0 , 300, B
+\par \cf2 END\cf0 
+\par 
+\par \cf2 PROGRAM\cf0  (REL) Take a break
+\par           \cf3 DESC\cf0 , Take a break and catch your breath
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CHHZ\cf0 , 12, B
+\par           \cf3 CONT\cf0 , 180, B
+\par           \cf3 FADE\cf0 , 12, 7.83, 60, B
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 7.83, 5, 60, B
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 5, 7.83, 60, B
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 7.83, 10, 60, B
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 FADE\cf0 , 10, 12, 60, B
+\par           \cf3 CONT\cf0 , 180, B
+\par \cf2 END\cf0 
+\par 
+\par \cf2 PROGRAM\cf0  (ENR) Increased Energy 1
+\par           \cf3 DESC\cf0 , Increases energy
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 10, 10, 30, B
+\par           \cf3 FADE\cf0 , 10, 18, 90, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 18, 30, 120, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 30, 40, 60, B
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 FADE\cf0 , 40, 38, 60, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 FADE\cf0 , 38, 36, 60, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 FADE\cf0 , 36, 34, 60, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 FADE\cf0 , 34, 32, 60, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 FADE\cf0 , 32, 30, 60, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 FADE\cf0 , 30, 32, 60, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 FADE\cf0 , 32, 34, 60, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 FADE\cf0 , 34, 36, 60, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 FADE\cf0 , 36, 38, 60, B
+\par           \cf3 LEDS\cf0 , 0
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 FADE\cf0 , 38, 40, 60, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 40, 32, 180, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 120, B
+\par \cf2 END\cf0 
+\par 
+\par \cf2 PROGRAM\cf0  (ENR) Increased Energy 2
+\par           \cf3 DESC\cf0 , Increases energy
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 16, 7, 300, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 FADE\cf0 , 7, 10, 600, B
+\par           \cf3 FADE\cf0 , 10, 5, 300, B
+\par           \cf3 FADE\cf0 , 5, 15, 300, B
+\par           \cf3 FADE\cf0 , 15, 10, 300, B
+\par           \cf3 FADE\cf0 , 10, 15, 300, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 15, 20, 120, B
+\par           \cf3 CONT\cf0 , 60, B
+\par \cf2 END\cf0 
+\par 
+\par \cf2 PROGRAM\cf0  (LRN) Learning Acceleration2
+\par           \cf3 DESC\cf0 , Accelerated absorption
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 FADE\cf0 , 12, 12, 120, B
+\par           \cf3 FADE\cf0 , 12, 10, 60, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 FADE\cf0 , 10, 7, 60, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 60, B
+\par           \cf3 FADE\cf0 , 7, 4, 60, B
+\par           \cf3 LEDS\cf0 , O
+\par           \cf3 CONT\cf0 , 120, B
+\par           \cf3 FADE\cf0 , 4, 7, 60, B
+\par           \cf3 CONT\cf0 , 240, B
+\par           \cf3 FADE\cf0 , 7, 10, 60, B
+\par           \cf3 LEDS\cf0 , S
+\par           \cf3 CONT\cf0 , 300, B
+\par \cf2 END\cf0 
+\par 
+\par 
+\par 
+\par }
+ 

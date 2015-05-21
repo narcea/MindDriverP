@@ -1,0 +1,39 @@
+{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red100\green130\blue100;\red200\green20\blue140;\red0\green0\blue0;\red25\green25\blue200;\red15\green100\blue15;\red200\green25\blue5;}
+\viewkind4\uc1\pard\cf1\lang1033\fs18 /*
+\par This program folder or PRG was created with the
+\par Mind Driver Media Manager on 22:35:32 11-10-2003
+\par
+\par Press the F1 key for help, press F5 to refresh.
+\par */\cf0
+\par \cf2
+
+
+
+
+
+\par PROGRAM\cf0  (BIN) Learning Vibes
+\par           \cf4 DESC, \cf0 A good set to accelerate the mind
+\par           \cf5 SBAGEN,\cf0  lv.wav, 2, 1+100/20 160+7.83/20 130-10/15 220+20/2 
+\par           \cf4 MUSIC\cf0 , lv.wav, B 
+\par           \cf4 CHHZ,\cf0  10, b
+\par           \cf4 FADE,\cf0  10, 20, 3m, b
+\par           \cf4 CONT,\cf0  6m, b
+\par \cf2 END \cf0 
+
+
+\PAR PROGRAM\cf0  (ENR) Morning Chill7
+\par           \cf4 DESC, \cf0 Quick energized wake up.
+\par           \cf4 LEDS,\cf0  a
+\par           \cf4 FADE,\cf0  25, 7.83, 30, B
+\par           \cf4 CONT,\cf0  30, B
+\par           \cf4 LEDS,\cf0  S
+\par           \cf4 FADE,\cf0  7.83, 15, 30, B
+\par           \cf4 CONT,\cf0  30, B
+\par \cf2 END
+
+
+
+\pa
+\par }
+

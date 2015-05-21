@@ -1,0 +1,30 @@
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+{\colortbl ;\red100\green130\blue100;\red200\green20\blue140;\red25\green25\blue200;\red15\green100\blue15;}
+\viewkind4\uc1\pard\cf1\lang1033\fs18 /*
+\par This program folder or PRG was created with the
+\par Mind Driver Media Manager on 21:55:53 09-22-2003
+\par 
+\par Press the F1 key for help, press F5 to refresh.
+\par */
+\par \cf2 
+\par PROGRAM\cf1  (BIN) Earth Vibrations
+\par          \cf3  DESC,\cf1  Feel the earth as you synchronize to its natural vibration with quick ramps to help you feel yourself recentering.
+\par          \cf4  SBAGEN\cf1 , ev.wav, 2, 1+100/20 180+7.83/20 200-3.915/15 300+15.66/2 
+\par          \cf3  MUSI\cf1 C, ev.wav, B 
+\par          \cf3  CHHZ\cf1 , 7.83, b
+\par          \cf3  CONT\cf1 , 1m, b
+\par          \cf3  FADE\cf1 , 7.83, 12, 15, B
+\par          \cf3  CHHZ\cf1 , 7.83,B
+\par          \cf3  CONT\cf1 , 45, B
+\par          \cf3  FADE\cf1 , 7.83, 3.50,15,B
+\par          \cf3  CHHZ\cf1 , 7.83,B
+\par          \cf3  CONT\cf1 , 75,B
+\par          \cf3  MFAD\cf1 E, 7.83,9,7.83,6.66,5
+\par          \cf3  MFAD\cf1 E,  9,7.83,6.66,7.83,5
+\par          \cf3  CHHZ\cf1 , 7.83,B
+\par          \cf3  CONT\cf1 , 1M,B
+\par          \cf3  MFAD\cf1 E, 7.83,6.66,7.83,9,5
+\par          \cf3  MFAD\cf1 E, 6.66,7.83,9,7.83,5
+\par          \cf3  CHHZ\cf1 , 7.83,B
+\par          \cf3  CONT\cf1 , 5M,B\cf2 
+\par END\cf1   

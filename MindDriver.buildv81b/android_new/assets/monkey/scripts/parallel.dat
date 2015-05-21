@@ -1,0 +1,352 @@
+{\rtf1\ansi\deff0{\fonttbl{\f0\fnil\fcharset0 Verdana;}}
+{\colortbl ;\red100\green130\blue100;\red200\green20\blue140;\red25\green25\blue200;\red15\green100\blue15;\red200\green25\blue5;}
+\viewkind4\uc1\pard\cf1\lang1033\f0\fs18 /* 
+\par Parallel Port test scripts
+\par Press F1 for help 
+\par */\cf0   
+\par 
+\par \cf1 /* an example Mind Driver script. */\cf0  
+\par \cf2 PROGRAM\cf0  Example Script 1   , \cf1 /* First declare the programs name */\cf0  
+\par           \cf3 DESC\cf0 , A simple example script. , \cf1 /* immediately give the description */\cf0  
+\par          
+\par           \cf3 FADE\cf0 , 30, 10, 1M, B         , \cf1 /* Fade both LEDs from 30 to 10 Hz over one minute*/\cf0 
+\par           \cf3 LEDS\cf0 , a                              , \cf1 /* Alternate the flashes */\cf0 
+\par           \cf3 CONT\cf0 , 30, B                      , \cf1 /* Continue for 30 seconds */\cf0 
+\par           \cf3 LEDS\cf0 , s                              , \cf1 /* LEDs flash simultaneously */\cf0 
+\par           \cf3 CONT\cf0 , 15, B
+\par \cf2 END\cf0 
+\par \cf1 /* an example Mind Driver script with SBAGEN support */\cf0   
+\par \cf2 PROGRAM\cf0  Example Script 2 Binaural
+\par           \cf3 DESC\cf0 , A sample binaural script utilizing \cf4 SBAGEN\cf0 
+\par           \cf3 PLAYCD\cf0 , 3
+\par           \cf4 SBAGEN\cf0 , sample.wav, 60, pink/40 100+1.5/20 200-4/36 400+8/2
+\par           \cf3 MUSIC\cf0 , sample.wav, B   , \cf1 /* Install the generated binaural file */\cf0 
+\par           \cf3 CHHZ\cf0 , 7.83, B                  , \cf1 /* Both LEDs now flash at 7.83 Hz */\cf0 
+\par           \cf3 CONT\cf0 , 60, B
+\par \cf2 END\cf0  
+\par \cf2 PROGRAM\cf0  para test 1
+\par           \cf3 DESC\cf0 , Test the leds on the new eyephones
+\par           \cf3 LEDON\cf0 , 1
+\par           \cf3 CONT\cf0 , 1,a
+\par           \cf3 LEDON\cf0 , 2
+\par           \cf3 CONT\cf0 , 1,a
+\par           \cf3 LEDON\cf0 , 3
+\par           \cf3 CONT\cf0 , 1,a
+\par           \cf3 LEDON\cf0 , 4
+\par           \cf3 CONT\cf0 , 1,a
+\par           \cf3 LEDON\cf0 , 5
+\par           \cf3 CONT\cf0 , 1,a
+\par           \cf3 LEDON\cf0 , 6
+\par           \cf3 CONT\cf0 , 1,a
+\par          
+\par           \cf3 LEDOFF\cf0 , 1
+\par           \cf3 CONT\cf0 , 1,a
+\par           \cf3 LEDOFF\cf0 ,2
+\par           \cf3 CONT\cf0 , 1,a
+\par           \cf3 LEDOFF\cf0 ,3
+\par           \cf3 CONT\cf0 , 1,a
+\par           \cf3 LEDOFF\cf0 ,4
+\par           \cf3 CONT\cf0 , 1,a
+\par           \cf3 LEDOFF\cf0 ,5
+\par           \cf3 CONT\cf0 , 1,a
+\par           \cf3 LEDOFF\cf0 , 6
+\par           \cf3 CONT\cf0 , 1,a
+\par 
+\par           \cf3 LEDON\cf0 , a
+\par           \cf3 CONT\cf0 , 1,a
+\par           \cf3 LEDOFF\cf0 , a
+\par           \cf3 CONT\cf0 , 1,a
+\par \cf2 END\cf0 
+\par \cf2 PROGRAM\cf0  para test 2
+\par \cf3 DESC\cf0 , test ~program  2
+\par 
+\par           \cf3 LEDON\cf0 , 1
+\par           \cf3 LEDON\cf0 , 4
+\par           \cf3 CONT\cf0 , 1,a
+\par           \cf3 LEDOFF\cf0 , 1
+\par           \cf3 LEDOFF\cf0 , 4
+\par           \cf3 LEDON\cf0 , 2
+\par           \cf3 LEDON\cf0 , 3
+\par           \cf3 CONT\cf0 , 1,a
+\par           \cf3 LEDOFF\cf0 , 2
+\par           \cf3 LEDOFF\cf0 , 3      
+\par           \cf3 LEDON\cf0 , 5
+\par           \cf3 LEDON\cf0 , 6
+\par           \cf3 CONT\cf0 , 1,a
+\par           \cf3 LEDOFF\cf0 , 5     
+\par           \cf3 LEDOFF\cf0 , 6 
+\par \cf5 REPEAT\cf0 , 2          
+\par           \cf3 LEDON\cf0 , 1
+\par           \cf3 LEDON\cf0 , 4
+\par           \cf3 CONT\cf0 , .5,a
+\par           \cf3 LEDOFF\cf0 , 1
+\par           \cf3 LEDOFF\cf0 , 4
+\par           \cf3 LEDON\cf0 , 2
+\par           \cf3 LEDON\cf0 , 3
+\par           \cf3 CONT\cf0 , .5,a
+\par           \cf3 LEDOFF\cf0 , 2
+\par           \cf3 LEDOFF\cf0 , 3      
+\par           \cf3 LEDON\cf0 , 5
+\par           \cf3 LEDON\cf0 , 6
+\par           \cf3 CONT\cf0 , .5,a
+\par           \cf3 LEDOFF\cf0 , 5     
+\par           \cf3 LEDOFF\cf0 , 6 
+\par \cf2 END\cf0  \cf5 REPEAT\cf0 
+\par \cf5 REPEAT\cf0 , 4 
+\par           \cf3 LEDON\cf0 , 1
+\par           \cf3 LEDON\cf0 , 4
+\par           \cf3 CONT\cf0 , .25,a
+\par           \cf3 LEDOFF\cf0 , 1
+\par           \cf3 LEDOFF\cf0 , 4
+\par           \cf3 LEDON\cf0 , 2
+\par           \cf3 LEDON\cf0 , 3
+\par           \cf3 CONT\cf0 , .25,a
+\par           \cf3 LEDOFF\cf0 , 2
+\par           \cf3 LEDOFF\cf0 , 3      
+\par           \cf3 LEDON\cf0 , 5
+\par           \cf3 LEDON\cf0 , 6
+\par           \cf3 CONT\cf0 , .25,a
+\par           \cf3 LEDOFF\cf0 , 5     
+\par           \cf3 LEDOFF\cf0 , 6 
+\par \cf2 END\cf0  \cf5 REPEAT\cf0 ,
+\par \cf5 REPEAT\cf0 , 8  
+\par           \cf3 LEDON\cf0 , 1
+\par           \cf3 LEDON\cf0 , 4
+\par           \cf3 CONT\cf0 , .125,a
+\par           \cf3 LEDOFF\cf0 , 1
+\par           \cf3 LEDOFF\cf0 , 4
+\par           \cf3 LEDON\cf0 , 2
+\par           \cf3 LEDON\cf0 , 3
+\par           \cf3 CONT\cf0 , .125,a
+\par           \cf3 LEDOFF\cf0 , 2
+\par           \cf3 LEDOFF\cf0 , 3      
+\par           \cf3 LEDON\cf0 , 5
+\par           \cf3 LEDON\cf0 , 6
+\par           \cf3 CONT\cf0 , .125,a
+\par           \cf3 LEDOFF\cf0 , 5     
+\par           \cf3 LEDOFF\cf0 , 6 
+\par \cf2 END\cf0  \cf5 REPEAT\cf0 ,
+\par \cf5 REPEAT\cf0 , 16           
+\par           \cf3 LEDON\cf0 , 1
+\par           \cf3 LEDON\cf0 , 4
+\par           \cf3 CONT\cf0 , .0625,a
+\par           \cf3 LEDOFF\cf0 , 1
+\par           \cf3 LEDOFF\cf0 , 4
+\par           \cf3 LEDON\cf0 , 2
+\par           \cf3 LEDON\cf0 , 3
+\par           \cf3 CONT\cf0 , .0625,a
+\par           \cf3 LEDOFF\cf0 , 2
+\par           \cf3 LEDOFF\cf0 , 3      
+\par           \cf3 LEDON\cf0 , 5
+\par           \cf3 LEDON\cf0 , 6
+\par           \cf3 CONT\cf0 , .0625,a
+\par           \cf3 LEDOFF\cf0 , 5     
+\par           \cf3 LEDOFF\cf0 , 6 
+\par \cf2 END\cf0  \cf5 REPEAT\cf0 ,
+\par \cf5 REPEAT\cf0 , 32
+\par           \cf3 LEDON\cf0 , 1
+\par           \cf3 LEDON\cf0 , 4
+\par           \cf3 CONT\cf0 , .015625,a
+\par           \cf3 LEDOFF\cf0 , 1
+\par           \cf3 LEDOFF\cf0 , 4
+\par           \cf3 LEDON\cf0 , 2
+\par           \cf3 LEDON\cf0 , 3
+\par           \cf3 CONT\cf0 , .015625,a
+\par           \cf3 LEDOFF\cf0 , 2
+\par           \cf3 LEDOFF\cf0 , 3      
+\par           \cf3 LEDON\cf0 , 5
+\par           \cf3 LEDON\cf0 , 6
+\par           \cf3 CONT\cf0 , .015625,a
+\par           \cf3 LEDOFF\cf0 , 5     
+\par           \cf3 LEDOFF\cf0 , 6 
+\par 
+\par           
+\par          
+\par \cf2 END\cf0  \cf5 REPEAT\cf0 ,  
+\par \cf2 END\cf0 
+\par \cf2 PROGRAM\cf0  para test 3
+\par \cf3 DESC\cf0 , third test .program
+\par \cf5 REPEAT\cf0 , 3
+\par           \cf3 LEDON\cf0 , a
+\par           \cf3 CONT\cf0 , 1,a
+\par           \cf3 LEDS\cf0 , dim
+\par           \cf3 CONT\cf0 , 1,a
+\par           \cf3 LEDS\cf0 , bright
+\par           \cf3 CONT\cf0 , 1,a
+\par \cf2 END\cf0  \cf5 REPEAT\cf0 
+\par \cf2 END\cf0  
+\par 
+\par \cf2 PROGRAM\cf0  para test4 
+\par \cf3 DESC\cf0 , (left leds.Tops Leds.Right Leds)
+\par           \cf3 LEDS\cf0 , lside
+\par           \cf3 CHHZ\cf0 , 5,lside
+\par           \cf3 CONT\cf0 , 2,a
+\par           \cf3 CHHZ\cf0 , 5,rside
+\par           \cf3 LEDS\cf0 , rside
+\par           \cf3 CONT\cf0 , 2,a
+\par           \cf3 CHHZ\cf0 , 5,tops
+\par           \cf3 LEDS\cf0 , top
+\par           \cf3 CONT\cf0 , 2,a
+\par \cf2 END\cf0  
+\par \cf2 PROGRAM\cf0  para test5
+\par \cf3 DESC\cf0 , test modified \cf3 CHHZ\cf0  1,2,3,4,5                                        
+\par           \cf3 CHHZ\cf0 , 30,LED1
+\par           \cf3 CHHZ\cf0 , 10,LED2
+\par           \cf3 CHHZ\cf0 , 2,LED5
+\par           \cf3 CONT\cf0 , 4,a
+\par           
+\par           \cf3 CHHZ\cf0 , 35, LED3
+\par           \cf3 CHHZ\cf0 , 15,LED4
+\par           \cf3 CHHZ\cf0 , 7,LED6
+\par           \cf3 CONT\cf0 , 4,a
+\par \cf2 END\cf0  
+\par \cf2 PROGRAM\cf0  para test6
+\par \cf3 DESC\cf0 , tests the new ramp command
+\par           SLOPE,15         
+\par                     01,30        
+\par                     30,01          
+\par                     01,30         
+\par                     30,01         
+\par                     01,30        
+\par                     30,01   
+\par           SLOPE,15         
+\par                     30,01          
+\par                     01,30         
+\par                     30,01         
+\par                     01,30        
+\par                     30,01   
+\par                     01,30
+\par           \cf3 CONT\cf0 , 4,a
+\par \cf2 END\cf0        
+\par 
+\par \cf1 /* These scripts below were generated with a graphic editor
+\par this editor is being developed. 
+\par */\cf0 
+\par               
+\par \cf2 PROGRAM\cf0  <no name>
+\par      \cf3 DESC\cf0 , Unnamed session.
+\par 
+\par      MSLOPE, \{
+\par           L1
+\par              37, 288
+\par              45, 259
+\par              32, 111
+\par              40, 351
+\par              36, 120
+\par              23, 133
+\par              39, 267
+\par           L2
+\par              25, 186
+\par              47, 63
+\par              26, 209
+\par              35, 302
+\par              19, 480
+\par              43, 284
+\par              43, 165
+\par           L4
+\par              29, 102
+\par              41, 125
+\par              20, 444
+\par              29, 338
+\par              36, 387
+\par              23, 297
+\par \}
+\par \cf2 END\cf0 
+\par \cf2 PROGRAM\cf0  <no name2>
+\par      \cf3 DESC\cf0 , Unnamed session.
+\par 
+\par      MSLOPE, \{
+\par           L1
+\par              58, 1
+\par              4, 59
+\par           L2
+\par              3, 2
+\par              56, 57
+\par           L3
+\par              31, 1
+\par              30, 59
+\par           L4
+\par              31, 1
+\par              29, 59
+\par           L5
+\par              58, 1
+\par              20, 9
+\par              59, 20
+\par              11, 20
+\par              50, 10
+\par           L6
+\par              10, 2
+\par              9, 55
+\par \}
+\par \cf2 END\cf0  
+\par \cf2 PROGRAM\cf0  <no name3>
+\par      \cf3 DESC\cf0 , Unnamed session.
+\par 
+\par      MSLOPE, \{
+\par           L1
+\par              10, 10
+\par              30, 49
+\par           L2
+\par              50, 10
+\par              1, 49     
+\par \}
+\par \cf2 END\cf0  
+\par \cf2 PROGRAM\cf0  <no name4>
+\par      \cf3 DESC\cf0 , Unnamed session.
+\par 
+\par      MSLOPE, \{
+\par           L1
+\par              46, 1
+\par              17, 17
+\par              46, 13
+\par              25, 12
+\par              45, 10
+\par              32, 5
+\par           L2
+\par              18, 4
+\par              38, 5
+\par              4, 9
+\par              32, 11
+\par              24, 22
+\par              48, 5
+\par              12, 3
+\par           L3
+\par              9, 2
+\par              32, 10
+\par              10, 11
+\par              16, 15
+\par              16, 13
+\par              24, 4
+\par              26, 2
+\par           L4
+\par              38, 0
+\par              20, 23
+\par              20, 18
+\par              11, 8
+\par              12, 7
+\par           L6
+\par              14, 1
+\par              24, 40
+\par              27, 18
+\par           A1
+\par              19, 5
+\par              32, 6
+\par              22, 7
+\par              28, 11
+\par              37, 14
+\par              17, 10
+\par              32, 6
+\par           A2
+\par              22, 9
+\par              48, 15
+\par              27, 8
+\par              45, 16
+\par              24, 8
+\par              12, 2
+\par \}
+\par \cf2 END\cf0  
+\par 
+\par 
+\par 
+\par }
+ 
